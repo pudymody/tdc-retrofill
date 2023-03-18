@@ -1,0 +1,21 @@
+{
+  "name": "@pudymody/tdc-activex",
+  "version": "1.0.0",
+  "description": "A custom element to pollyfill the tdc activex control",
+  "main": "tdc.js",
+	"type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "baretest": "^2.0.0",
+    "csv-parse": "^5.3.5",
+    "jison": "^0.4.18",
+    "rollup": "^3.17.1"
+  },
+  "scripts": {
+    "test": "npm run build && node dist/test.js",
+    "build": "rollup -c"
+  },
+  "author": "Federico Scodelaro <federicoscodelaro@gmail.com> (http://pudymody.github.io/)",
+  "license": "GPL-3.0"
+}
